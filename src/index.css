@@ -1,0 +1,185 @@
+:root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  font-family: 'Caprasimo', cursive;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0%;
+  box-sizing: border-box;
+  
+
+
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+ 
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+h1, h2 {
+  font-family: 'Caprasimo', cursive;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  /* background-color: coral; */
+  /* background-color: #747bff; */
+  border-radius: 1rem;
+}
+
+.App {
+  margin-top: auto;
+  width: 90vw;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+div {
+  text-align: center;
+}
+
+h1 {
+  font-size: 5rem;
+  line-height: 1.1;
+  padding: 1.5rem;
+  background-color: rgb(67, 67, 31);
+}
+
+h2 {
+  font-size: 2.3rem;
+  letter-spacing: .1rem;
+  padding: 0.6rem;
+  background-color: coral;
+}
+
+.quizzy {
+  display: flex;
+  padding: 2rem;
+  background-color: wheat;
+  flex-direction: column;
+  border-radius: 5rem;
+}
+
+.Header {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  margin-top: auto;
+  padding: 2rem;
+  /* width: 90vw; */
+  border-radius: 3rem;
+  background-image: url("./assets/groovy.jpg");
+}
+
+ul {
+  display: flex;
+  padding: 5rem;
+  list-style: none;
+  background-color: darkgoldenrod;
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+  margin-bottom: 0px;
+  justify-content: space-between;
+}
+
+li {
+  font-family: 'Caprasimo', cursive;
+  letter-spacing: 1rem;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+p {
+  font-family: 'Caprasimo', cursive;
+  letter-spacing: .12rem;
+  font-size: 1.4rem;
+}
+
+.Answers {
+  display: flex;
+  flex-direction: column;
+}
+
+.Qa {
+  display: flex;
+  flex-direction: column;
+  /* border: solid 2px salmon; */
+  text-align: left;
+  font-family: 'Caprasimo', cursive;
+  letter-spacing: normal;
+  font-size: 1.4rem;
+  padding: 1rem;
+}
+
+.choices {
+  width: 90%;
+}
+
+.foot {
+  background-color: goldenrod;
+  margin-top: 0px;
+  padding: 1rem;
+}
+
+.funkyFoot {
+  padding: 3rem;
+  background-color: wheat;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+}
+
+button {
+  border-radius: 8px;
+  border: 2px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1.5rem;
+  letter-spacing: .1rem;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: rgb(67, 67, 31);
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: wheat;
+}
+button:focus,
+button:focus-visible {
+  outline: auto wheat;
+  background-color: rgb(87, 87, 39);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
